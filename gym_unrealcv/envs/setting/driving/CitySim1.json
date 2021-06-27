@@ -1,0 +1,33 @@
+{
+	"env_name": "CitySim1",
+	"env_bin": "CitySim1v3/LinuxNoEditor/CitySim1/Binaries/Linux/CitySim1",
+	"cam_id": 0,
+	"height": 50,
+	"pitch": 0,
+	"maxsteps": 100,
+	"trigger_th": 0.6,
+	"reward_th": 0.1,
+	"reward_factor": 10,
+	"collision_th": 50,
+	"waypoint_th": 200,
+	"targets": {
+		"Door": ["FbxScene_Street_Mayumi4"]
+	},
+	"onepoint":[-940, 1050, 50, 0, 0, 0],
+	"reset_area":[0, 900, -500, 500, 40, 60],
+	"test_xy": [
+     [ 470,  -300],
+     [ 400,   450],
+     [ 880,  -320],
+     [  90,  -500]
+    ],
+	"discrete_actions": [
+		[500, 0, 0],
+		[300, 15, 0],
+		[300, -15, 0]
+	],
+	"continous_actions": {
+		"high": [100, 45, 1],
+		"low":  [0, -45, 0]
+	}
+}
