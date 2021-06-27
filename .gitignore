@@ -1,0 +1,13 @@
+#custom
+*/.ipynb_checkpoints/*
+*/__pycache__/*
+*.egg-info
+__pycache__/
+*.pth
+*.pt
+*.h5
+gym_unrealcv/envs/UnrealEnv
+example/dqn_torch/saved_logs
+example/dqn_torch/saved_weights
+example/dqn_torch/log
+*.out
